@@ -15,10 +15,14 @@
 
 ## Slideshows
 
-- [Best practices #1](http://de.slideshare.net/alessioricco/best-practices-in-apps-development-with-titanium-appcelerator)
-- [Ten rules for better Titanium apps](http://de.slideshare.net/jamessugrue/10-golden-rules-for-outstanding-titanium-app)
+- [Best practices #1](http://de.slideshare.net/alessioricco/best-practices-in-apps-development-with-titanium-appcelerator) <br>
+Fundamental DOs and DON'Ts, useful for every developer
+- [Ten rules for better Titanium apps](http://de.slideshare.net/jamessugrue/10-golden-rules-for-outstanding-titanium-app) <br>
+Further details about some learnings
 - [Thread maintainance](http://www.slideshare.net/ronaldtreur/titanium-making-the-most-of-your-single-thread) <br>
 Making the most of your single thread
+- [Ultimate toolchain](http://fokkezb.nl/2014/10/18/the-ultimate-titanium-cli-toolchain/) <br>
+Get used to some tools and tips for developing Titanium apps.
 
 ## Definitions
 
@@ -36,22 +40,32 @@ A possible logger implementation with severities and color support
 Leading resource for Titanium modules and Alloy widgets
 - [UX Mobile Patterns](http://www.uxmobilepatterns.com/templates/) <br>
 Example views and widgets for common UI problems
-- [Titanium Controls](http://titaniumcontrols.com/)
-- [AlloyLove](http://alloylove.com/#)
+- [Titanium Controls](http://titaniumcontrols.com/) <br>
+Visual control elements for Titanium
+- [AlloyLove](http://alloylove.com/#) <br>
+Small listing of Alloy-related modules
 
 
 ## Awesome resources
 
-### Modules
+### Modules / Widgets
 
 - [Wriststrap](https://github.com/TNuzzi/wriststrap) <br>
 A Bootstrap-like implementation of UI building (grid system, helper classes, image & button styling, icon, ...)
+- [TiLogCatcher](https://github.com/dbankier/TiLogCatcher) <br>
+Listen to and handle Titanium errors
+- [PullToRefresh](https://github.com/FokkeZB/nl.fokkezb.pullToRefresh) <br>
+Refresh a table / list view by pulling on the top
+
+
 
 ### CLI
 - [ti-i18n](https://www.npmjs.com/package/ti-i18n) <br>
 Add and manage your internationalization strings
 - [ti-stealth](https://www.npmjs.com/package/ti-stealth) <br>
 Remove console output before deploying
+- [TiShadow](https://github.com/FokkeZB/TiShadow) <br>
+Rapid development on multiple platforms 
 
 
 # Debugging tips
@@ -67,7 +81,7 @@ How to debug your code and find possible memory leaks (Android & iOS)
 
 > The app is ready for the world? Some adjustments have to be made for both the Apple app store & Google Play store.
 
-## Image optimization
+## Icon and Splash Screen
 
 - [Icon and Splash Screen definition](http://docs.appcelerator.com/titanium/latest/#!/guide/Icons_and_Splash_Screens) <br>
 Appcelerator information about the different screen sizes and their image resolutions
@@ -78,7 +92,8 @@ More details about these images and automated deployment
 
 ## Misc
 
-- [Proper versioning](http://www.tidev.io/2014/10/29/versioning-builds-and-releases/)
+- [Proper versioning](http://www.tidev.io/2014/10/29/versioning-builds-and-releases/) <br>
+If you contribute the app, you'll need a fixed versioning system.
 
 
 # Find inspirations
@@ -91,7 +106,13 @@ More details about these images and automated deployment
 Open source app for the game Skyrim
 - [KitchenSink](https://github.com/Mindelusions/KitchenSink) <br>
 Titanium self-made example app for Android & iOS with lots of UI elements / basic features. Useful to check if a feature is working on a device.
+- [Android ActionBar](https://github.com/adampax/AlloyActionJackson) <br>
+How to implement a proper ActionBar for Android users
 
 ## Example screens
 - [UI Pattern list](http://www.pttrns.com/) <br>
 Dozens of iOS and Android screenshots from cool and inspirational apps
+
+## Developers
+- [Ben Bahrenburg](https://github.com/benbahrenburg?tab=repositories)
+- [Fokke Zandbergen](http://fokkezb.nl/)
