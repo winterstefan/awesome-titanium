@@ -108,6 +108,11 @@ Open source app for the game Skyrim
 Titanium self-made example app for Android & iOS with lots of UI elements / basic features. Useful to check if a feature is working on a device.
 - [Android ActionBar](https://github.com/adampax/AlloyActionJackson) <br>
 How to implement a proper ActionBar for Android users
+- [Movie app](https://github.com/appcelerator/movies) <br>
+Appcelerators open-source demo app for a video streaming app
+- [Corporate Directory](https://github.com/appcelerator-se/corporate-directory) <br>
+Appcelerators open-source demo app for browsing through business contacts
+
 
 ## Example screens
 - [UI Pattern list](http://www.pttrns.com/) <br>
