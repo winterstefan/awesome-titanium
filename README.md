@@ -23,12 +23,19 @@ Further details about some learnings
 Making the most of your single thread
 - [Ultimate toolchain](http://fokkezb.nl/2014/10/18/the-ultimate-titanium-cli-toolchain/) <br>
 Get used to some tools and tips for developing Titanium apps.
+- [Keep your app responsive](http://www.tidev.io/2014/02/17/keeping-your-app-responsive-part-1/) <br>
+Three part document for how to keep app response times small
 
 ## Definitions
 
 - [Proper logging](https://github.com/appcelerator/alloy/blob/master/Alloy/logger.js) <br>
 A possible logger implementation with severities and color support
-
+- [Logging source code location](http://www.tidev.io/2014/10/08/where-does-that-log-come-from/) <br>
+Creating a logger with information about the current controller / widget
+- [Proper string substitution](http://www.tidev.io/2015/01/26/formatting-strings-the-correct-way-using-an-old-friend-printf/) <br>
+A prototyped printf function, that allows parameterized substitution: ``` greeting.printf({ name : 'John Doe', gender : 'male' }); ```
+- [Globals in alloy.js](http://www.tidev.io/2014/10/15/managing-alloy-js-global-objects/) <br>
+How to define variables inside your alloy.js
 
 # Developing your app
 
@@ -74,6 +81,8 @@ Rapid development on multiple platforms
 
 - [Memory management](http://docs.appcelerator.com/titanium/3.0/#!/guide/Managing_Memory_and_Finding_Leaks-section-29004941_ManagingMemoryandFindingLeaks-Examplesourcesofmemoryleaks) <br>
 How to debug your code and find possible memory leaks (Android & iOS)
+- [Remote error reporting](https://github.com/FokkeZB/UTiL/tree/master/reporter) <br>
+On App errors, open email dialog with all important debug information
 
 
 
