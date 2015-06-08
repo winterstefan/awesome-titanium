@@ -28,7 +28,7 @@ Get used to some tools and tips for developing Titanium apps.
 Three part document for how to keep app response times small
 
 
-## Development Environment
+## Development Environment and tools
 - [TiShadow](http://tishadow.yydigital.com/) <br>
 The complete toolset for rapid titanium app development on multiple platforms (deploy, test and much more)
 - [Alloy-Bootstrap](https://github.com/xavierlacot/Alloy-Bootstrap) <br>
@@ -37,6 +37,7 @@ Grunt setup with selective compilation to speedup the compilation und some other
 Add and manage your internationalization strings
 - [ti-stealth](https://www.npmjs.com/package/ti-stealth) <br>
 Remove console output before deploying
+- [ticons](http://ticons.fokkezb.nl/) generate all the needed app icons and the splash screen
 
 
 
