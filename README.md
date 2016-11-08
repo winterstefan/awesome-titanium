@@ -13,6 +13,7 @@
 
 > A must-read for all newcomers. Mobile development with Titanium differs a lot from native Android and iOS development. Be sure to follow these basic steps.
 
+
 ## Slideshows
 
 - [Best practices #1](http://de.slideshare.net/alessioricco/best-practices-in-apps-development-with-titanium-appcelerator) <br>
@@ -26,6 +27,20 @@ Get used to some tools and tips for developing Titanium apps.
 - [Keep your app responsive](http://www.tidev.io/2014/02/17/keeping-your-app-responsive-part-1/) <br>
 Three part document for how to keep app response times small
 
+
+## Development Environment and tools
+- [TiShadow](http://tishadow.yydigital.com/) <br>
+The complete toolset for rapid titanium app development on multiple platforms (deploy, test and much more)
+- [Alloy-Bootstrap](https://github.com/xavierlacot/Alloy-Bootstrap) <br>
+Grunt setup with selective compilation to speedup the compilation und some other tool sets
+- [ti-i18n](https://www.npmjs.com/package/ti-i18n) <br>
+Add and manage your internationalization strings
+- [ti-stealth](https://www.npmjs.com/package/ti-stealth) <br>
+Remove console output before deploying
+- [ticons](http://ticons.fokkezb.nl/) generate all the needed app icons and the splash screen
+
+
+
 ## Definitions
 
 - [Proper logging](https://github.com/appcelerator/alloy/blob/master/Alloy/logger.js) <br>
@@ -36,6 +51,8 @@ Creating a logger with information about the current controller / widget
 A prototyped printf function, that allows parameterized substitution: ``` greeting.printf({ name : 'John Doe', gender : 'male' }); ```
 - [Globals in alloy.js](http://www.tidev.io/2014/10/15/managing-alloy-js-global-objects/) <br>
 How to define variables inside your alloy.js
+
+
 
 # Developing your app
 
@@ -63,16 +80,6 @@ A Bootstrap-like implementation of UI building (grid system, helper classes, ima
 Listen to and handle Titanium errors
 - [PullToRefresh](https://github.com/FokkeZB/nl.fokkezb.pullToRefresh) <br>
 Refresh a table / list view by pulling on the top
-
-
-
-### CLI
-- [ti-i18n](https://www.npmjs.com/package/ti-i18n) <br>
-Add and manage your internationalization strings
-- [ti-stealth](https://www.npmjs.com/package/ti-stealth) <br>
-Remove console output before deploying
-- [TiShadow](https://github.com/FokkeZB/TiShadow) <br>
-Rapid development on multiple platforms 
 
 
 # Debugging tips
